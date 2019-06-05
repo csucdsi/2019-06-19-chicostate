@@ -97,12 +97,15 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants are highly encouraged to bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. 
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>). 
-  **For this workshop we are providing the option to run these programs in the cloud, no installation is needed**.
-  Loaner laptops will be available for use during the workshop. 
-  Participants are encouraged to bring their own data to work on during Day 2. 
+  <strong>Requirements:</strong> 
+  <ul>
+  <li>Participants are highly encouraged to bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>). </li>
+  <li>For this workshop we are providing the option to run these programs in the cloud, no installation is needed.</li>
+  <li>Loaner laptops will be available for use during the workshop. </li>
+  <li>Participants are encouraged to bring their own data to work on during Day 2. </li>
+</ul>
+
+  
 </p>
 
 {% comment%}
@@ -271,7 +274,8 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below. **For this workshop we are providing the option to run these programs in the cloud**    
+  you will need access to the software described below. 
+  <strong>For this workshop we are providing the option to run these programs in the cloud.</strong>   
   If you choose to install this software on your computer follow the instructions below.
   If you choose to use cloud-based software then make an account on R Studio Cloud https://rstudio.cloud/. 
   A link to the workshop project space will be provided on Day 1.
@@ -284,6 +288,52 @@ please preview your site before committing, and make sure to run
 </p>
 
 
+<div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
+  <h3>OpenRefine</h3>
+  <p>
+    For this lesson you will need <em>OpenRefine</em> and a
+    web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
+    It runs inside a web browser, but no web connection is needed.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="openrefine-windows">Windows</h4>
+      <p>
+        Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
+        <strong>OpenRefine runs in your default browser.</strong>
+        It will not run correctly in Internet Explorer.
+      </p>
+      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
+      <p>Create a new directory called OpenRefine.</p>
+      <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
+      <p>Go to your newly created OpenRefine directory.</p>
+      <p>Launch OpenRefine by clicking <code>google-refine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).</p>
+      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="openrefine-mac">Mac</h4>
+      <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
+      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+      <p>Create a new directory called OpenRefine.</p>
+      <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
+      <p>Go to your newly created OpenRefine directory.</p>
+      <p>Launch OpenRefine by dragging the icon into the Applications folder.</p>
+      <p>Use <code>Ctrl-click/Open ... </code> to launch it.</p>
+      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="openrefine-linux">Linux</h4>
+      <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
+      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+      <p>Make a directory called OpenRefine.</p>
+      <p>Unzip the downloaded file into the OpenRefine directory.</p>
+      <p>Go to your newly created OpenRefine directory.</p>
+      <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
+      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+    </div>
+  </div>
+</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
