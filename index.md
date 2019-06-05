@@ -351,6 +351,64 @@ A map containing parking locations can be found <a href ="https://drive.google.c
 <hr/>
 
 
+<div id="or"> {% comment %} Start of 'R' section. {% endcomment %}
+  <h3>OpenRefine</h3>
+  <p>
+    For this lesson you will need <em>OpenRefine</em> and a
+    web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
+    It runs inside a web browser, but no web connection is needed.
+  </p>
+
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#or-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#or-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#or-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="or-windows">
+        <p>
+        Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
+        <strong>OpenRefine runs in your default browser.</strong>
+        It will not run correctly in Internet Explorer.
+      </p>
+      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
+      <p>Create a new directory called OpenRefine.</p>
+      <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
+      <p>Go to your newly created OpenRefine directory.</p>
+      <p>Launch OpenRefine by clicking <code>google-refine.exe</code> (this will launch a command prompt window, but you can 
+      ignore that - just wait for OpenRefine to open in the browser).</p>
+      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at 
+      <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="or-macos">
+        <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+        <p>
+          Install R by downloading and running
+          <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+          Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="or-linux">
+        <p>
+          You can download the binary files for your distribution
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
+          you can use your package manager (e.g. for Debian/Ubuntu
+          run <code>sudo apt-get install r-base</code> and for Fedora run
+          <code>sudo dnf install R</code>).  Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        </p>
+      </article>
+    </div>
+  </div>
+</div> {% comment %} End of 'R' section. {% endcomment %}
+
+<hr/>
+
+
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
