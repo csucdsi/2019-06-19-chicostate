@@ -300,7 +300,7 @@ A map containing parking locations can be found <a href ="https://drive.google.c
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-
+<!---
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -347,11 +347,10 @@ A map containing parking locations can be found <a href ="https://drive.google.c
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+--->
 
-<hr/>
 
-
-<div id="or"> {% comment %} Start of 'R' section. {% endcomment %}
+<div id="or"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
@@ -383,24 +382,27 @@ A map containing parking locations can be found <a href ="https://drive.google.c
       <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="or-macos">
-        <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-        <p>
-          Install R by downloading and running
-          <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-          Also, please install the
-          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-        </p>
+        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. 
+        <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
+        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+        <p>Create a new directory called OpenRefine.</p>
+        <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
+        <p>Go to your newly created OpenRefine directory.</p>
+        <p>Launch OpenRefine by dragging the icon into the Applications folder.</p>
+        <p>Use <code>Ctrl-click/Open ... </code> to launch it.</p>
+        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at 
+        <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="or-linux">
-        <p>
-          You can download the binary files for your distribution
-          from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
-          you can use your package manager (e.g. for Debian/Ubuntu
-          run <code>sudo apt-get install r-base</code> and for Fedora run
-          <code>sudo dnf install R</code>).  Also, please install the
-          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-        </p>
+        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. 
+        <strong>OpenRefine runs in your default browser.</strong></p>
+        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+        <p>Make a directory called OpenRefine.</p>
+        <p>Unzip the downloaded file into the OpenRefine directory.</p>
+        <p>Go to your newly created OpenRefine directory.</p>
+        <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
+        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at 
+        <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
       </article>
     </div>
   </div>
