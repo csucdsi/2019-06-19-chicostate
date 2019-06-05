@@ -250,17 +250,6 @@ please preview your site before committing, and make sure to run
 
 <hr/>
 
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
 
 <h2 id="setup">Setup</h2>
 
@@ -273,12 +262,7 @@ please preview your site before committing, and make sure to run
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below. 
-  <strong>For this workshop we are providing the option to run these programs in the cloud.</strong>   
-  If you choose to install this software on your computer follow the instructions below.
-  If you choose to use cloud-based software then make an account on R Studio Cloud https://rstudio.cloud/. 
-  A link to the workshop project space will be provided on Day 1.
+  workshop, you will need access to the software described below. 
   In addition, you will need an up-to-date web browser and have the ability to connect to campus internet. 
 </p>
 <p>
@@ -335,6 +319,9 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
+<hr/>
+
+
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -342,7 +329,10 @@ please preview your site before committing, and make sure to run
     <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
-    <a href="https://www.rstudio.com/">RStudio</a>.
+    <a href="https://www.rstudio.com/">RStudio</a>. 
+    <strong>For this workshop we are providing the option to run these programs in the cloud.</strong>   
+    If you choose to install this software on your computer follow the instructions below for your operating system.
+    If you choose to use cloud-based software then make an account on R Studio Cloud https://rstudio.cloud/. 
   </p>
 
   <div>
@@ -391,3 +381,42 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+<hr>
+
+<h3 id="platform_specfic">Platform-specific Notes</h3>
+<p>This workshop will be using the software outlined in the install instructions below.
+Please see the section for your operating system for those directions.
+</p><ul>
+<li><a href="#windows">Windows</a>
+</li><li><a href="#mac">Mac</a>
+</li><li><a href="#linux">Linux</a>
+</li></ul>
+
+<h3 id="windows">Windows</h3>
+<p>
+Please go through all the installation steps below and make sure that
+you not only installed them, but start them up to make sure they're working.
+If you have any problems, don't hesitate to email the instructors to
+ask for help, or arrive early on the first day of the workshop to
+get help.
+</p>
+<div class="row-fluid">
+<ol>
+<li><b>A spreadsheet program</b></li>
+<br>For this workshop you will need a spreadsheet program. Many people already have
+Microsoft Excel installed, and if you do, you're set!
+<br>
+If you need a spreadsheet
+program, there are a few other options, like OpenOffice and LibreOffice. Install
+instructions for LibreOffice, which is free and open source, are here.
+       <ul>
+          <li><b>Download the Installer</b>
+        <br>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Windows
+should automatically be selected. Click <b>Download Version 6.0.3 or later</b>. You
+will go to a page that asks about a donation, but you don't need to make one.
+Your download should begin automatically.
+          </li><li><b>Install LibreOffice</b>
+            <br>Once the installer is downloaded, double click on it and it should install.
+</li><li>To use LibreOffice, double click on the icon and it will open.
+</li></ul>
+	
