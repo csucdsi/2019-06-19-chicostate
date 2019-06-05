@@ -349,6 +349,35 @@ A map containing parking locations can be found <a href ="https://drive.google.c
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 --->
 
+<div id="xl"> {% comment %} Start of 'spreadsheet' section. {% endcomment %}
+
+<h3 id="spreadsheet">A spreadsheet program</h3>
+
+<br>For this workshop you will need a spreadsheet program. Many people already have
+Microsoft Excel installed, and if you do, you're set!
+<p>
+If you need a spreadsheet program, there are a few other options, like OpenOffice and LibreOffice. 
+Install instructions for LibreOffice, which is free and open source, are here.
+</p>
+
+<ul>
+  <li><b>Download the Installer</b>
+    <br>
+    Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. 
+    The version for your operating system should automatically be selected. 
+    Click <b>Download Version 6.0.3 or later</b>. 
+    You will go to a page that asks about a donation, but you don't need to make one.
+    Your download should begin automatically.
+  </li>
+  <li><b>Install LibreOffice</b>
+    <br>
+    Once the installer is downloaded, double click on it and it should install.
+  </li>
+  <li>To use LibreOffice, double click on the icon and it will open.</li>
+</ul>
+
+</div> {% comment %} End of 'spreadsheet' section. {% endcomment %}
+
 
 <div id="or"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
@@ -408,7 +437,7 @@ A map containing parking locations can be found <a href ="https://drive.google.c
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<hr/>
+
 
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
@@ -420,7 +449,7 @@ A map containing parking locations can be found <a href ="https://drive.google.c
     statistical analysis. To interact with R, we use <a href="https://www.rstudio.com/">RStudio</a>. 
     <strong>For this workshop we are providing the option to run these programs in the cloud.</strong>   
     If you choose to install this software on your computer follow the instructions below for your operating system.
-    If you choose to use R Studio in the cloud then make an account on R Studio Cloud https://rstudio.cloud/ prior to the workshop.
+    If you choose to use R Studio in the cloud then make an account on <a href="https://rstudio.cloud/>R Studio Cloud</a> prior to the workshop.
   </p>
 
   <div>
@@ -469,34 +498,5 @@ A map containing parking locations can be found <a href ="https://drive.google.c
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<hr/>
 
-<div id="xl"> {% comment %} Start of 'spreadsheet' section. {% endcomment %}
 
-<h3 id="spreadsheet">A spreadsheet program</h3>
-
-<br>For this workshop you will need a spreadsheet program. Many people already have
-Microsoft Excel installed, and if you do, you're set!
-<br>
-If you need a spreadsheet program, there are a few other options, like OpenOffice and LibreOffice. 
-Install instructions for LibreOffice, which is free and open source, are here.
-
-<ul>
-  <li><b>Download the Installer</b>
-    <br>
-    Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. 
-    The version for your operating system should automatically be selected. 
-    Click <b>Download Version 6.0.3 or later</b>. 
-    You will go to a page that asks about a donation, but you don't need to make one.
-    Your download should begin automatically.
-  </li>
-  <li><b>Install LibreOffice</b>
-    <br>
-    Once the installer is downloaded, double click on it and it should install.
-  </li>
-  <li>To use LibreOffice, double click on the icon and it will open.</li>
-</ul>
-
-</div> {% comment %} End of 'spreadsheet' section. {% endcomment %}
-
---->
