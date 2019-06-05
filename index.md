@@ -100,7 +100,8 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong> Participants are highly encouraged to bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. 
   They should have a few specific software packages installed (listed <a href="#setup">below</a>). 
-  The software used in this workshop is available freely in the cloud
+  **For this workshop we are providing the option to run these programs in the cloud, no installation is needed**.
+  Loaner laptops will be available for use during the workshop. 
   Participants are encouraged to bring their own data to work on during Day 2. 
 </p>
 
@@ -270,7 +271,10 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
+  you will need access to the software described below. **For this workshop we are providing the option to run these programs in the cloud**    
+  If you choose to install this software on your computer follow the instructions below.
+  If you choose to use cloud-based software then make an account on R Studio Cloud https://rstudio.cloud/. 
+  A link to the workshop project space will be provided on Day 1.
   In addition, you will need an up-to-date web browser and have the ability to connect to campus internet. 
 </p>
 <p>
