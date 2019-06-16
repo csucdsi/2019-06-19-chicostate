@@ -12,7 +12,7 @@ humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2019-06-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-06-20        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Robin Donatello (CSU Chico)", "Mahesh Maskey (UC Davis)"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Kathleen Johnson"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Kathleen Johnson (CHC)", "Esther Kukielka (UC Davis)", "Collin Dever (CSUC)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["datascience@csuchico.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:["https://hackmd.io/s/rk3I-VfA4"]# optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: "62833257966" # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -92,7 +92,7 @@ eventbrite: "62833257966" # optional: alphanumeric key for Eventbrite registrati
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. Once you enter the library, go up to the second floor. If coming from the elevators, take a left. If coming up the stairs, go straight ahead.  Signs will be posted. 
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. We are in Holt Hall Room 155.  Holt Hall is made up of thre "blocks" of rooms, with some doors facing the inside of the block and others facing outside. This will be a room facing the outside of the building, in the middle block of the building. Signs will be posted. 
 A map containing parking locations can be found <a href ="https://drive.google.com/open?id=1qV1Mtz4ktoO_4S7OnaBsUn5xM0-JF3XL&usp=sharing">here</a>.
 </p>
 {% endif %}
@@ -118,8 +118,9 @@ A map containing parking locations can be found <a href ="https://drive.google.c
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  on. They should have a few specific software packages installed (listed <a href="#setup">below</a>). 
+  There will be loaner laptops available in the room available on an as-needed basis. 
+  Participants are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
