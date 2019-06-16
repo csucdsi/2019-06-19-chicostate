@@ -6,7 +6,7 @@ venue: "California State University, Chico"        # brief name of host site wit
 address: "Holt Hall 155, 400 W 1st St, Chico, CA 95929"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "en"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latlng: "39.728120,-121.846237"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+latlng: "39.73094, -121.84534"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "Jun 19-20, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-06-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -93,7 +93,7 @@ eventbrite: "62833257966" # optional: alphanumeric key for Eventbrite registrati
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. We are in Holt Hall Room 155.  Holt Hall is made up of thre "blocks" of rooms, with some doors facing the inside of the block and others facing outside. This will be a room facing the outside of the building, in the middle block of the building. Signs will be posted. 
-A map containing parking locations can be found <a href ="https://drive.google.com/open?id=1qV1Mtz4ktoO_4S7OnaBsUn5xM0-JF3XL&usp=sharing">here</a>.
+A map containing parking locations can be found <a href ="https://drive.google.com/open?id=156EzqI-D0mq4Bquv1P7TY8vBX2nzVLc6&usp=sharing">here</a>.
 </p>
 {% endif %}
 
